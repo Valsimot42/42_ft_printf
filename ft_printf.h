@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 15:28:50 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 14:46:24 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/09/21 16:29:19 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,4 @@ int		process_pointer(unsigned long int n);
 int		process_decimal(int n);
 int		process_unsigned_decimal(unsigned int n);
 int		process_hex(unsigned int n, int flag);
-#endif
+#endif 
