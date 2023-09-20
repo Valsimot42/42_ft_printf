@@ -12,9 +12,6 @@
 <h3><b>¤ How to use ¤</b></h3>
 
 * Clone the git repository.
+* Uncomment `main` at line 72 in `ft_print.c`
 * Execute `make` in terminal.
-* Add a `main` to the function you would like to test.
-* Execute `make` in terminal again.
-* Run `libft`.
-
-
+* Execute the following line in the terminal: `gcc libftprintf.a && ./a.out`
