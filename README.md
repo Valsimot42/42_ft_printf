@@ -69,7 +69,7 @@ If the subject requires it, you must submit a Makefile which will compile your s
 ```ruby
 int	process_decimal(int n)
 {
-	long			new;
+	long				new;
 	int				length;
 	int				flag;
 
