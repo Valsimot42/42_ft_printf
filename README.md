@@ -46,6 +46,7 @@ If the subject requires it, you must submit a Makefile which will compile your s
 * `libftprintf.a` must be created at the root of repository.
 
   Following conversions must be implemented:
+  
 |Conversion|Description|
 |:---------|:----------|
 %c |Prints a single character.
