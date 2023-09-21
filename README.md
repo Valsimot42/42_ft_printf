@@ -33,3 +33,27 @@
 If the subject requires it, you must submit a Makefile which will compile your source files to the required output with the flags -Wall, -Wextra and -Werror, use cc, and Makefile must not relink.
 
 * Makefile must at least contain the rules $(NAME), all, clean, fclean and re.
+
+
+---
+<h3><b>¤ Parameters ¤</b></h3>
+
+<p align="left̨">
+
+* Do NOT implement the buffer management of the original printf().
+* Function has to handle the following conversions: `cspdiuxX%`
+* Command ar must be used to to create the library. Using the libtool command is forbidden.
+* `libftprintf.a` must be created at the root of repository.
+
+  Following conversions must be implemented:
+|Conversion|Description|
+|:---------|:----------|
+%c |Prints a single character.
+%s |Prints a string (as defined by the common C convention).
+%p |The void * pointer argument has to be printed in hexadecimal format.
+%d |Prints a decimal (base 10) number.
+%i |Prints an integer in base 10
+%u |Prints an unsigned decimal (base 10) number.
+%x |Prints a number in hexadecimal (base 16) lowercase format.
+%X |Prints a number in hexadecimal (base 16) uppercase format.
+%% |Prints a percent sign.
