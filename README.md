@@ -7,6 +7,8 @@
 1) <b>How to use</b>
 2) <b>Introduction</b>
 3) <b>Instructions</b>
+4) <b>Part 1: Parameters</b>
+5) <b>Part 2: Example</b>
 
 ---
 <h3><b>¤ How to use ¤</b></h3>
@@ -36,7 +38,7 @@ If the subject requires it, you must submit a Makefile which will compile your s
 
 
 ---
-<h3><b>¤ Parameters ¤</b></h3>
+<h3><b>¤ Part 1: Parameters ¤</b></h3>
 
 <p align="left̨">
 
@@ -58,3 +60,31 @@ If the subject requires it, you must submit a Makefile which will compile your s
 %x |Prints a number in hexadecimal (base 16) lowercase format.
 %X |Prints a number in hexadecimal (base 16) uppercase format.
 %% |Prints a percent sign.
+
+
+<h3><b>¤ Part 2: Example ¤</b></h3>
+
+• %d •
+
+```ruby
+int	process_decimal(int n)
+{
+	long			new;
+	int				length;
+	int				flag;
+
+	new = (long)n;
+	length = 0;
+	flag = 0;
+	if (new < 0)
+	{
+		length += write(1, "-", 1);
+		new = -new;
+	}
+	if (new / 10)
+		length += process_decimal(new / 10);
+	new = new % 10 + '0';
+	length += write(1, &new, 1);
+	return (length);
+}
+```
