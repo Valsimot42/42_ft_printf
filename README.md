@@ -88,3 +88,7 @@ int	process_decimal(int n)
 	return (length);
 }
 ```
+
+As you can see from the above example, getting characters (or in this case, digits) will not be the difficult part.
+
+The challenge of this project is to learn about <stdarg.h> library and its content. Learning the structure of how "printf" operates will be the first step towards understanding this project.
