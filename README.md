@@ -43,7 +43,6 @@ If the subject requires it, you must submit a Makefile which will compile your s
 <p align="left̨">
 
 * Do NOT implement the buffer management of the original printf().
-* Function has to handle the following conversions: `cspdiuxX%`
 * Command ar must be used to to create the library. Using the libtool command is forbidden.
 * `libftprintf.a` must be created at the root of repository.
 
